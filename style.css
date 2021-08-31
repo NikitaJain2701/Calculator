@@ -1,0 +1,90 @@
+body{
+    height: 100vh;
+    background-image: url('./kelly-sikkema-cXkrqY2wFyc-unsplash.jpg');
+    
+}
+h1{
+    color:rgb(7, 7, 5);
+    text-align: center;
+    padding: 2%;
+}
+h3{
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: center;   
+}
+.navbar{
+    display: flex;
+
+}
+.list-non-bullet{
+    list-style: none;
+    margin-left: auto;
+    padding: 0% 2%;
+   
+}
+label{
+    display: block;
+    margin-top: 1rem;
+}
+input{
+    height: 1.5rem;
+    padding: 0 0.5rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input:focus{
+    outline: none;
+    border-bottom: 1px solid rgba(233, 21, 21, 0.856);
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.calculate_SI{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background: rgb(4, 14, 7);
+    color: white;
+}
+.calculate_CI{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background: black;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center; 
+
+}
+
+.simple_interest,.compound_interest{
+    width: 300px;
+    /* margin: 0 auto; */
+    box-shadow: 5px 5px 10px black;
+    border: 2px solid black;
+    padding: 2% 0% 0%;
+    height: 300px;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: row;
+    margin-left: 1rem; 
+    margin-top: 2rem;
+    text-align:center;  
+    background: linear-gradient(0deg,rgb(243, 243, 70),white);
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 747px){
+    h1{
+        font-size: 1rem;
+    }
+}

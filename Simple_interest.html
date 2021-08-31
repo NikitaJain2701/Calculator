@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <h4>Calculator</h4>
+        <ul style= color:blue class="list-non-bullet">
+            <a href="./index.html"><li>Home</li></a>
+        </ul>
+        </nav>
+        <hr><h1>Simple Interest Calculator</h1>
+    <p><strong>This ia a simple calculator that calculates SI using formula SI = (P*R*T)/100</strong></p>
+    <div class="container">
+    <div class="compound_interest">
+        <p><strong>Calculate SI here</strong></p>
+        <label for="Principle">
+            <input type="number" id="principle_SI" placeholder="Enter amount" />
+        </label>
+        <label for="Rate">
+            <input type="number" id="rate_SI" placeholder="Rate" />
+        </label>
+        <label for="Time">
+            <input type="number" id="time_SI" placeholder="Time in years" /> 
+        </label>
+        <button class="calculate_SI">Calculate</button>
+        <p id="output_SI"></p>
+    </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
